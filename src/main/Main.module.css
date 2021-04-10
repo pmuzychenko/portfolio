@@ -1,0 +1,15 @@
+.mainBlock {
+    height: 100vh;
+    background: #0a101e;
+}
+
+.greeting {
+    width: 300px;
+    background-color: floralwhite;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: floralwhite;
+}

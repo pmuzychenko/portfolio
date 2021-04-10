@@ -1,0 +1,14 @@
+.project {
+    width: 250px;
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+    height: 100px;
+    background-color: floralwhite;
+}
