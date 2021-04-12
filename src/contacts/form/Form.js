@@ -7,6 +7,7 @@ function Form() {
             <input/>
             <input/>
             <textarea/>
+            <button type={"submit"}>Send</button>
         </form>
     );
 }

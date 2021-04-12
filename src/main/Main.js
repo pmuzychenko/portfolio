@@ -3,16 +3,19 @@ import styles from './Main.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 
 
+
 function Main() {
     return (
         <div className={styles.mainBlock}>
             <div className={stylesContainer.container}>
                 <div className={styles.greeting}>
-                    <span>Hi There</span>
-                    <h1>I am Pavel Muzychenko</h1>
-                    <p>A Front-end Developer</p>
+                    <h5>Hello, my name is</h5>
+                    <h1>Pavel Muzychenko</h1>
+                    <h5>Front-end Developer based in #Dnipro, Ukraine</h5>
                 </div>
-                <div className={styles.photo}>Photo will be here</div>
+                <div className={styles.photo}>
+                    <img src="./../common/images/ava.jpg" alt="Pavel Muzychenko" />
+                </div>
             </div>
         </div>
     );
