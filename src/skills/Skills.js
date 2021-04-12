@@ -12,6 +12,9 @@ function Skills() {
                     <Skill title ={"Skill title 1"} description={"Skill description 1"}/>
                     <Skill title ={"Skill title 2"} description={"Skill description 2"}/>
                     <Skill title ={"Skill title 3"} description={"Skill description 3"}/>
+                    <Skill title ={"Skill title 4"} description={"Skill description 4"}/>
+                    <Skill title ={"Skill title 5"} description={"Skill description 5"}/>
+                    <Skill title ={"Skill title 6"} description={"Skill description 6"}/>
                 </div>
             </div>
         </div>
