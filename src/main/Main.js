@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Main.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
-
+import avatar from '../common/images/avatar.jpg'
 
 
 function Main() {
@@ -14,7 +14,7 @@ function Main() {
                     <h5>Front-end Developer based in #Dnipro, Ukraine</h5>
                 </div>
                 <div className={styles.photo}>
-                    <img src="./../common/images/ava.jpg" alt="Pavel Muzychenko" />
+                    <img src={avatar} alt="Pavel Muzychenko" />
                 </div>
             </div>
         </div>

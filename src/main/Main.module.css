@@ -6,13 +6,19 @@
 .greeting {
     width: 500px;
     background-color: floralwhite;
+    text-align: left;
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
 }
+
+.photo img {
+    width: 50vh;
+    height: 70%;
+}
+
 
 .greeting h5 {
     font-size: 16px;
@@ -22,6 +28,7 @@
     margin: 0 0 15px;
     text-transform: uppercase;
 }
+
 .greeting h1 {
     font-size: 38px;
     color: #414141;
