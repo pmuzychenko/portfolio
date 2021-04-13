@@ -10,7 +10,6 @@ function Contacts() {
         <div className={styles.contactsBlock}>
             <div className={`${stylesContainer.container} ${styles.contactsContainer}`}>
                 <Title title={'GET IN TOUCH'}/>
-                <h2 className={styles.title}> Contacts </h2>
                 <Form/>
             </div>
         </div>

@@ -1,11 +1,9 @@
 .mainBlock {
     height: 100vh;
-    background: #0a101e;
 }
 
 .greeting {
     width: 500px;
-    background-color: floralwhite;
     text-align: left;
 }
 

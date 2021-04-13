@@ -1,15 +1,10 @@
 .projectsBlock {
     min-height: 100vh;
-    background: #0a101e;
 }
 
 .projectsContainer {
     justify-content: flex-start;
     flex-direction: column;
-}
-
-.title {
-    background: #eac4ba;
 }
 
 .projects{

@@ -7,12 +7,14 @@ import Projects from "./projects/Projects";
 import Vacancy from "./vacancy/Vacancy";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
+import SocialBlock from "./social/SocialBlock";
 
 function App() {
     return (
         <div className="App">
             <Header/>
             <Main/>
+            <SocialBlock/>
             <Skills/>
             <Projects/>
             <Vacancy/>
