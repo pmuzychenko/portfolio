@@ -19,14 +19,11 @@
 }
 
 .secondMain {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin: 0 30px;
 
 }
 .secondSmall {
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 30px;
+    margin: 30px 15px 0;
     background-color: gray;
     height: 224px;
 }
