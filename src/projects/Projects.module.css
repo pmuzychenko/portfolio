@@ -1,18 +1,43 @@
 .projectsBlock {
     min-height: 100vh;
+    padding: 80px 0;
 }
 
 .projectsContainer {
-    justify-content: flex-start;
+    display: flex;
     flex-direction: column;
 }
 
-.projects{
+.projects {
+    margin: 60px 0;
     border: 2px dotted floralwhite;
-    width: 100%;
+    min-width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.secondMain {
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.secondSmall {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: gray;
+    height: 224px;
+}
+
+.secondBig {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: gray;
+    height: 300px;
+
 }
 
 @media screen and (max-width: 936px) {
