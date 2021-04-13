@@ -1,12 +1,9 @@
 .vacancyBlock {
-    height: 20vh;
+    max-height: 20vh;
+    padding: 80px 0;
 }
 
 .vacancyContainer {
     justify-content: flex-start;
     flex-direction: column;
-}
-
-.title {
-    background: #d4e5ec;
 }
