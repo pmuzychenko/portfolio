@@ -11,7 +11,7 @@ function Main() {
                 <div className={styles.greeting}>
                     <h5>Hello, I'm</h5>
                     <h1>Pavel Muzychenko</h1>
-                    <h2>Front-end Developer based in #Dnipro, Ukraine</h2>
+                    <h2>Front-end Developer</h2>
                 </div>
                 <div className={styles.photo}>
                     <img src={avatar} alt="Pavel Muzychenko" />
