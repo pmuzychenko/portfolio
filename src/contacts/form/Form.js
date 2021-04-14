@@ -4,10 +4,8 @@ import styles from './Form.module.css';
 function Form() {
     return (
         <form className={styles.form}>
-            <div className={styles.inputBlock}>
                 <input type="text" placeholder="Your Name"/>
                 <input type="email" placeholder="Your Email"/>
-            </div>
             <textarea placeholder="Your Message"/>
             <button className={styles.btn}>
                 Send Message

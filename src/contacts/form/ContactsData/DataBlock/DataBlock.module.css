@@ -10,18 +10,18 @@
 h4 {
     margin: 0;
     text-transform: capitalize;
-    color:white;
+    color:#494949;
 }
 
 span {
     outline: none;
     cursor: pointer;
     text-decoration: none;
-    color:white;
+    color:#494949;
 }
 
 .icon {
-    border: 1px solid white;
+    border: 1px solid #fec544;
     border-radius: 50%;
     font-size: 24px;
     height: 47px;
@@ -29,7 +29,7 @@ span {
     margin-right: 12px;
     text-align: center;
     width: 47px;
-    color: white;
+    color: #fec544;
 }
 
 .description {

@@ -24,20 +24,25 @@
 
 
 .greeting h5 {
-    font-size: 16px;
-    color: #919191;
+    font-size: 30px;
+    color: #fec544;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 0 15px;
-    text-transform: uppercase;
 }
 
 .greeting h1 {
-    font-size: 38px;
-    color: #414141;
-    line-height: 40px;
+    font-size: 80px;
+    color: #fdfeff;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 800;
     margin: 0 0 15px;
+    line-height: 1;
 }
+.greeting h2 {
+    font-size: 36px;
+    margin: 0 0 15px;
+    font-weight: 300;
+    color: #a9adb8;
+}
+

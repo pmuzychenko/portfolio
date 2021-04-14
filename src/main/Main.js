@@ -9,9 +9,9 @@ function Main() {
         <div className={styles.mainBlock}>
             <div className={stylesContainer.container}>
                 <div className={styles.greeting}>
-                    <h5>Hello, my name is</h5>
+                    <h5>Hello, I'm</h5>
                     <h1>Pavel Muzychenko</h1>
-                    <h5>Front-end Developer based in #Dnipro, Ukraine</h5>
+                    <h2>Front-end Developer based in #Dnipro, Ukraine</h2>
                 </div>
                 <div className={styles.photo}>
                     <img src={avatar} alt="Pavel Muzychenko" />
