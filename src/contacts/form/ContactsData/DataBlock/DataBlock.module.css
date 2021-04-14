@@ -1,0 +1,38 @@
+.dataBlock {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    text-align: left;
+}
+
+h4 {
+    margin: 0;
+    text-transform: capitalize;
+    color:white;
+}
+
+span {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+
+.icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 24px;
+    height: 47px;
+    line-height: 47px;
+    margin-right: 12px;
+    text-align: center;
+    width: 47px;
+    color: white;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
