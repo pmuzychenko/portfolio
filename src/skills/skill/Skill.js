@@ -1,12 +1,16 @@
 import React from 'react'
 import styles from './Skill.module.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-function Skill(props) {
+function Skill({title, description, titleIcon}) {
     return (
         <div className={styles.skill}>
-            <div className={styles.icon}>Place for skill icon</div>
-            <h3>{props.title}</h3>
-            <span>{props.description}</span>
+            <div className={styles.image}>
+                <FontAwesomeIcon icon={titleIcon} className={styles.icon}/>
+            </div>
+            <h5>{title}</h5>
+            <hr className={styles.hR}/>
+            <p>{description}</p>
         </div>
     );
 }

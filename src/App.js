@@ -11,7 +11,7 @@ import SocialBlock from "./social/SocialBlock";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App" id={'home'}>
             <Header/>
             <Main/>
             <SocialBlock/>

@@ -1,21 +1,20 @@
 import React from 'react'
 import styles from './Skills.module.css';
-import stylesContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/title/Title";
+import {faBriefcase, faLaptopCode, faTasks} from "@fortawesome/free-solid-svg-icons";
+import {faSketch} from "@fortawesome/free-brands-svg-icons";
 
 function Skills() {
     return (
-        <div className={styles.skillsBlock}>
-            <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
+        <div className={styles.skillsBlock} id='skills'>
+            <div className={styles.skillsContainer}>
                 <Title title={'My Skills'}/>
                 <div className={styles.skills}>
-                    <Skill title ={"Skill title 1"} description={"Skill description 1"}/>
-                    <Skill title ={"Skill title 2"} description={"Skill description 2"}/>
-                    <Skill title ={"Skill title 3"} description={"Skill description 3"}/>
-                    <Skill title ={"Skill title 4"} description={"Skill description 4"}/>
-                    <Skill title ={"Skill title 5"} description={"Skill description 5"}/>
-                    <Skill title ={"Skill title 6"} description={"Skill description 6"}/>
+                    <Skill title={'DEVELOPMENT'} description={"React, Redux, AXIOS etc"} titleIcon={faLaptopCode}/>
+                    <Skill title={'FOUNDATION'} description={"JavaScript, TypeScript, HTML5, CSS3"} titleIcon={faBriefcase}/>
+                    <Skill title={'TESTING'} description={"Unit Tests, SnapShot, Storybook"} titleIcon={faTasks}/>
+                    <Skill title={'DESIGN'} description={"Material UI, Ant-Design etc"} titleIcon={faSketch}/>
                 </div>
             </div>
         </div>

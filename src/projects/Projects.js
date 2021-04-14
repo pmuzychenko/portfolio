@@ -6,7 +6,7 @@ import Title from "../common/title/Title";
 
 function Projects() {
     return (
-        <div className={styles.projectsBlock}>
+        <div className={styles.projectsBlock} id={'projects'}>
             <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
                 <div className={styles.title}>
                     <Title title={'My Projects'}/>
