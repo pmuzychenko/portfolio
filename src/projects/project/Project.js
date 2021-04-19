@@ -1,15 +1,21 @@
 import React from 'react'
-import styles from './Project.module.css';
+import s from './Project.module.css';
+import Slide from "react-reveal";
 
-
-function Project(props) {
+export const Project = ({img, description, link, title}) => {
     return (
-        <div className={styles.project}>
-            <div className={styles.icon}><a href={props.link}> {props.titleLink}</a></div>
-            <h3>{props.title}</h3>
-            <span>{props.description}</span>
-        </div>
+        <Slide bottom>
+            <div className={s.project}>
+                <div className={s.img} style={{backgroundImage: `url(${img})`}}>
+                    <div className={s.overlay}>
+                        <div className={s.description}>
+                            <h3>{title}</h3>
+                            <p>{description}</p>
+                            <a href={link} className={s.btn} target="_blank" rel="noreferrer">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Slide>
     );
 }
-
-export default Project;

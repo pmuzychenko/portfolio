@@ -1,12 +1,60 @@
+
 .project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 95%;
+    margin-bottom: 15px;
+    display: inline-block;
 }
 
-.icon {
-    width: 80px;
-    height: 100px;
-    background-color: floralwhite;
+.img {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.overlay:hover {
+     opacity: 1;
+ }
+
+.description {
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.description h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid white;
+    outline: 0;
+    transition: .25s;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+     background-color: #2b2b2b;
+ }
+
+.project:nth-child(4n+1) .img, .project:nth-child(4n) .img {
+    height: 350px;
 }

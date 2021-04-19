@@ -14,10 +14,11 @@ function Main() {
                     <h2>Front-end Developer</h2>
                 </div>
                 <div className={styles.photo}>
-                    <img src={avatar} alt="Pavel Muzychenko" />
+                    <img src={avatar} alt="Pavel Muzychenko"/>
                 </div>
             </div>
         </div>
     );
 }
+
 export default Main;

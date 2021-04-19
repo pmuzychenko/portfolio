@@ -5,12 +5,12 @@ import Title from "../common/title/Title";
 
 function SocialBlock() {
     return (
-        <div className={styles.socialBlock}>
+        <div className={styles.socialBlock} id={'activities'}>
             <Title title={'Take a look at'}/>
             <ul className={styles.socialLinks}>
-                <li><a href={'git'}>Git</a></li>
-                <li><a href={'codewars'}>Codewars</a></li>
-                <li><a href={'linkedIn'}>LinkedIn</a></li>
+                <li><a href={'https://www.linkedin.com/in/pavel-muzychenko/'}>LinkedIn</a></li>
+                <li><a href={'https://github.com/pmuzychenko'}>GitHub</a></li>
+                <li><a href={'https://www.codewars.com/users/pmuzychenko'}>Codewars</a></li>
             </ul>
         </div>
     );

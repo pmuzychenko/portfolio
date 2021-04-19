@@ -7,17 +7,11 @@
     text-align: left;
 }
 
-h4 {
-    margin: 0;
-    text-transform: capitalize;
-    color:#494949;
-}
-
 span {
     outline: none;
     cursor: pointer;
     text-decoration: none;
-    color:#494949;
+    color:#a9adb8;
 }
 
 .icon {
@@ -35,4 +29,16 @@ span {
 .description {
     display: flex;
     flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.description h4 {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    color:#a9adb8;
+}
+
+.description span {
+    font-size: 16px;
 }

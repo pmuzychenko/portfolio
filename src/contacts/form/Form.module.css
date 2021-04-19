@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: flex-start;
     width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
 input {
@@ -14,7 +16,6 @@ input {
     background-color: #101624;
     height: 52px;
     border-radius: 7px;
-    -webkit-transition: all .4s ease;
     transition: all .4s ease;
     font-family: inherit;
     font-size: inherit;
@@ -30,43 +31,8 @@ textarea {
     border: 1px solid #232935;
     background-color: #101624;
     border-radius: 7px;
-    -webkit-transition: all .4s ease;
     transition: all .4s ease;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-}
-
-.btn {
-    margin-top: 10px;
-    background-color: #fec544;
-    color: #070d1b;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 16px;
-    line-height: 1.5em;
-    font-weight: 500;
-    padding: 12px 1.5em;
-    border-radius: 50px;
-    min-width: 170px;
-    width: 200px;
-    border: none;
-    outline: none;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
-    height: 40px;
-}
-
-.btn:hover {
-    color: #494949;
-    cursor: pointer;
-    font-weight: bold;
 }

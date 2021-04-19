@@ -8,7 +8,7 @@ function Skill({title, description, titleIcon}) {
             <div className={styles.image}>
                 <FontAwesomeIcon icon={titleIcon} className={styles.icon}/>
             </div>
-            <h5>{title}</h5>
+            <h2>{title}</h2>
             <hr className={styles.hR}/>
             <p>{description}</p>
         </div>

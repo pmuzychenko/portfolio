@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Navigation.module.css';
 
 function Navigation() {
-    const items = ['home', 'skills', 'projects', 'contacts']
+    const items = ['home', 'skills', 'projects', 'contacts', 'activities']
     return (
         <div className={styles.navBlock}>
             <ul className={styles.menu}>

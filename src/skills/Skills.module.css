@@ -1,5 +1,5 @@
 .skillsBlock {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .skillsContainer {
@@ -8,7 +8,7 @@
 }
 
 .skills {
-    border: 2px dotted floralwhite;
+    margin-top: 60px;
     background-color: #101624;
     width: 100%;
     display: flex;

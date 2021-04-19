@@ -4,7 +4,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 function DataBlock({iconTitle, contactTitle, data}) {
-    return (<div className={styles.dataBlock}>
+    return (
+        <div className={styles.dataBlock}>
             <div className={styles.icon}>
                 <FontAwesomeIcon icon={iconTitle}/>
             </div>

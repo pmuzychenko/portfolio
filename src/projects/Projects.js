@@ -1,67 +1,62 @@
 import React from 'react'
 import styles from './Projects.module.css';
-import stylesContainer from '../common/styles/Container.module.css'
-import Project from "./project/Project";
+import {Project} from "./project/Project";
 import Title from "../common/title/Title";
+import imgSocialNetwork from '../common/images/socialNetwork.jpg'
+import imgTodolist from '../common/images/todolist_.jpg'
+import imgCounter from '../common/images/counter1.jpg'
+import imgFridayProject from '../common/images/Friday_project.jpg'
+import imgFutureProject from '../common/images/future_project.jpg'
+import imgFutureProject1 from '../common/images/future_project1.jpg'
+import imgFutureProject2 from '../common/images/future_project2.jpg'
+import imgReactTasks from '../common/images/react_tasks.jpg'
 
 function Projects() {
     return (
         <div className={styles.projectsBlock} id={'projects'}>
-            <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
-                <div className={styles.title}>
+            <div className={styles.projectsContainer}>
                     <Title title={'My Projects'}/>
-                </div>
-
                 <div className={styles.projects}>
-                    <div className={styles.mainSecond}>
-                        <div className={styles.secondSmall}>
-                            <Project title={"The Social Network"} description={"Project description will be here "}
-                                     link={"link #1"} titleLink={"here will be img-link"}/>
-                        </div>
-                        <div className={styles.secondBig}>
-                            <Project title={"Todolist"} description={"Project description will be here"}
-                                     link={"link #2"} titleLink={"here will be img-link"}/>
-                        </div>
-                    </div>
 
-                    <div className={styles.mainSecond}>
-                        <div className={styles.secondBig}>
-                            <Project title={"The Social Network"}
-                                     description={"Project description will be here"}
-                                     link={"link #4"} titleLink={"here will be img-link"}/>
-                        </div>
-                        <div className={styles.secondSmall}>
-                            <Project title={"Counter"} description={"Project description will be here"}
-                                     link={"link #3"} titleLink={"here will be img-link"}/>
-                        </div>
-                    </div>
+                    <Project title={"React Tasks"}
+                             img={imgReactTasks}
+                             description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
+                             link={"https://pmuzychenko.github.io/react-homeworks"}/>
 
+                    <Project title={"Todolist"}
+                             img={imgTodolist}
+                             description={"React, Redux, TS, RestAPI, Thunk, Material UI, Unit Tests"}
+                             link={"https://pmuzychenko.github.io/todolist-training"}/>
 
-                    <div className={styles.mainSecond}>
-                        <div className={styles.secondSmall}>
-                            <Project title={"Friday Project"}
-                                     description={"Project description will be here"}
-                                     link={"link #5"} titleLink={"here will be img-link"}/>
-                        </div>
-                        <div className={styles.secondBig}>
-                            <Project title={"Friday Project"}
-                                     description={"Project description will be here"}
-                                     link={"link #6"} titleLink={"here will be img-link"}/>
-                        </div>
-                    </div>
+                    <Project title={"Counter"}
+                             img={imgCounter}
+                             description={"React, TS, Redux"}
+                             link={"https://pmuzychenko.github.io/counter-with-settings"} />
 
-                    <div className={styles.mainSecond}>
-                        <div className={styles.secondBig}>
-                            <Project title={"The Social Network"}
-                                     description={"Project description will be here"}
-                                     link={"link #1"} titleLink={"here will be img-link"}/>
-                        </div>
-                        <div className={styles.secondSmall}>
-                            <Project title={"Todolist"} description={"Project description will be here"}
-                                     link={"link #2"} titleLink={"here will be img-link"}/>
-                        </div>
-                    </div>
+                    <Project title={"Friday project"}
+                             img={imgFridayProject}
+                             description={"Team project: TS, Redux, RestAPI, Thunk, Material UI"}
+                             link={"https://pmuzychenko.github.io/friday-cards-project/"} />
 
+                    <Project title={"Future Project"}
+                             img={imgFutureProject}
+                             description={"...in progress"}
+                             link={"https://github.com/pmuzychenko"} />
+
+                    <Project title={"Future Project"}
+                             img={imgFutureProject1}
+                             description={"...in progress"}
+                             link={"https://github.com/pmuzychenko"} />
+
+                    <Project title={"Future Project"}
+                             img={imgFutureProject2}
+                             description={"...in progress"}
+                             link={"https://github.com/pmuzychenko"} />
+
+                    <Project title={"The Social Network"}
+                             img={imgSocialNetwork}
+                             description={"TS, Redux, RestAPI, Thunk"}
+                             link={"The Social Network"}/>
                 </div>
             </div>
         </div>
