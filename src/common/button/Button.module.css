@@ -1,15 +1,10 @@
 .btn {
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: #fec544;
     color: #070d1b;
-    display: -ms-inline-flexbox;
+    font-family: 'Roboto', sans-serif;
     display: inline-flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     font-size: 16px;
     line-height: 1.5em;
     font-weight: 500;
@@ -19,11 +14,8 @@
     width: 200px;
     border: none;
     outline: none;
-    -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
-    height: 40px;
 }
 
 .btn:hover {
