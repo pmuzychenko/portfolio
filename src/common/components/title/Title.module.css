@@ -1,0 +1,36 @@
+.title {
+    color: #fec544;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.title h2 {
+    margin: 0 0 15px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: #3f4551;
+    width: 170px;
+    height: 2px;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    background-color: #fec544;
+    width: 70px;
+    height: 2px;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Main.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
-import avatar from '../common/images/avatar.jpg'
+import avatar from '../assets/images/avatar.jpg'
 
 
 function Main() {

@@ -1,0 +1,38 @@
+.projectsBlock {
+    padding: 80px 0 60px;
+}
+
+.projectsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects {
+    column-count: 4;
+    column-gap: 15px;
+    margin: 60px 100px 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .projects {
+        column-count: 1;
+        margin: 60px 20px 0;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 620px) {
+    .projects {
+        column-count: 2;
+        margin: 60px 20px 0;
+    }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+    .projects {
+        column-count: 3;
+        margin: 60px 0 0;
+    }
+}
+
