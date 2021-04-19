@@ -16,10 +16,11 @@
     outline: none;
     transition: all 0.4s ease;
     text-transform: capitalize;
+    &:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
 }
 
-.btn:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
+

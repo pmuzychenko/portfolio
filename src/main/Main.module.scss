@@ -1,0 +1,58 @@
+.mainBlock {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .container {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .greeting {
+            width: 500px;
+            text-align: left;
+            & h5 {
+                font-size: 30px;
+                color: #fec544;
+                letter-spacing: 1px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 300;
+                text-transform: capitalize;
+                margin: 0 0 15px;
+            }
+            & h1 {
+                font-size: 80px;
+                color: #fdfeff;
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+                margin: 0 0 15px;
+                line-height: 1;
+            }
+            & h2 {
+                font-size: 36px;
+                margin: 0 0 15px;
+                font-weight: 300;
+                color: #a9adb8;
+            }
+        }
+        .photo {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            & img {
+                height: auto;
+                width: 100%;
+                max-width: 720px;
+            }
+        }
+    }
+}
+
+
+
+
+
+

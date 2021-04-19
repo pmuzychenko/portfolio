@@ -1,0 +1,9 @@
+.vacancyBlock {
+    max-height: 20vh;
+    padding: 80px 0;
+    .vacancyContainer {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+

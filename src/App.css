@@ -1,9 +1,0 @@
-.App {
-  text-align: center;
-  background: #070d1b;
-}
-
-.App > div:nth-child(2n+3)
-{
-  background:#0a101e;
-}

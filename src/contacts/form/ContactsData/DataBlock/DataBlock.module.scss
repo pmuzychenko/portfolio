@@ -1,0 +1,45 @@
+.dataBlock {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    text-align: left;
+    .icon {
+        border: 1px solid #fec544;
+        border-radius: 50%;
+        font-size: 24px;
+        height: 47px;
+        line-height: 47px;
+        margin-right: 12px;
+        text-align: center;
+        width: 47px;
+        color: #fec544;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        & h4 {
+            font-size: 20px;
+            margin: 0;
+            text-transform: capitalize;
+            color:#a9adb8;
+        }
+        & span {
+            font-size: 16px;
+            outline: none;
+            cursor: pointer;
+            text-decoration: none;
+            color:#a9adb8;
+        }
+    }
+}
+
+
+
+
+
+
+

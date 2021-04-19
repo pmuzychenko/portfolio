@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SocialBlock.module.css';
+import styles from './SocialBlock.module.scss';
 import Title from "../common/components/title/Title";
 
 

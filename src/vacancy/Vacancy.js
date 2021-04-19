@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Vacancy.module.css'
+import styles from './Vacancy.module.scss'
 import Title from "../common/components/title/Title";
 import Button from "../common/components/button/Button";
 

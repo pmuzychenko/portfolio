@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './DataBlock.module.css';
+import styles from './DataBlock.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 

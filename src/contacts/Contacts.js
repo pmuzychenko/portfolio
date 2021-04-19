@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Contacts.module.css';
+import styles from './Contacts.module.scss';
 import Form from "./form/Form";
 import Title from "../common/components/title/Title";
 import ContactsData from "./form/ContactsData/ContactsData";
