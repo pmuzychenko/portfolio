@@ -1,12 +1,13 @@
+@import '../../../../common/styles/sass/variables';
+@import '../../../../common/styles/sass/mixins';
+
 .dataBlock {
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
+    @include flexible(flex,row, flex-start, center);
     width: 300px;
-    align-items: center;
     text-align: left;
     .icon {
-        border: 1px solid #fec544;
+        border: 1px solid $mainElementsColor;
         border-radius: 50%;
         font-size: 24px;
         height: 47px;
@@ -14,25 +15,24 @@
         margin-right: 12px;
         text-align: center;
         width: 47px;
-        color: #fec544;
+        color: $mainElementsColor;
     }
     .description {
         display: flex;
         flex-direction: column;
-        font-family: 'Inter', sans-serif;
+        font-family: $mainFontFamily;
         font-weight: 400;
         & h4 {
             font-size: 20px;
             margin: 0;
             text-transform: capitalize;
-            color:#a9adb8;
+            color:$mainElementsTextColor;
         }
         & span {
             font-size: 16px;
             outline: none;
-            cursor: pointer;
             text-decoration: none;
-            color:#a9adb8;
+            color:$mainElementsTextColor;
         }
     }
 }

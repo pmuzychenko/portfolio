@@ -1,12 +1,12 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
 .footerBlock {
     display: flex;
     justify-content: center;
     padding: 20px 0;
     .copyRight {
-        color: #a9adb8;
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
+        @include text($mainFontFamily,16px,400,0.8px,$mainElementsTextColor);
         line-height: 1.6em;
         text-align: center;
         margin: 0;

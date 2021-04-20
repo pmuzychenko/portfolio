@@ -1,9 +1,8 @@
+@import '../../../common/styles/sass/variables';
+@import '../../styles/sass/mixins';
+
 .title {
-  color: #fec544;
-  font-size: 24px;
-  letter-spacing: 1px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  @include text($mainFontFamily,24px,500,1px,$mainElementsColor);
   margin: 0 0 20px;
   text-transform: uppercase;
   position: relative;
@@ -26,7 +25,7 @@
   &::after {
     content: "";
     position: absolute;
-    background-color: #fec544;
+    background-color: $mainElementsColor;
     width: 70px;
     height: 2px;
     bottom: -16px;

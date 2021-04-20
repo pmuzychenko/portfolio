@@ -1,13 +1,12 @@
+@import '../../../common/styles/sass/variables';
+@import '../../../common/styles/sass/mixins';
+
 .btn {
+    @include text($secondFontFamily,16px,500,1px,$buttonTextColor);
+    @include flexible(inline-flex,column, center, center);
     margin-top: 15px;
-    background-color: #fec544;
-    color: #070d1b;
-    font-family: 'Roboto', sans-serif;
-    display: inline-flex;
-    justify-content: center;
-    font-size: 16px;
+    background-color: $mainElementsColor;
     line-height: 1.5em;
-    font-weight: 500;
     padding: 12px 1.5em;
     border-radius: 50px;
     min-width: 170px;
@@ -17,7 +16,7 @@
     transition: all 0.4s ease;
     text-transform: capitalize;
     &:hover {
-        background-color: white;
+        background-color: $bgButtonColor;
         color: black;
         cursor: pointer;
     }

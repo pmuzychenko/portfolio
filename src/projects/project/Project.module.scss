@@ -1,3 +1,5 @@
+@import '../../common/styles/sass/variables';
+
 .project {
     width: 95%;
     margin-bottom: 15px;
@@ -20,7 +22,7 @@
             }
             .description {
                 padding: 15px;
-                font-family: 'Inter', sans-serif;
+                font-family: $mainFontFamily;
                 h3 {
                     text-transform: uppercase;
                     font-weight: 800;
@@ -28,18 +30,18 @@
                     color: white;
                 }
                 p {
-                    color: white;
+                    color: $secondElementsTextColor;
                     margin-bottom: 25px;
                 }
                 .btn {
                     text-decoration: none;
-                    border: 1px solid white;
+                    border: 1px solid $secondElementsTextColor;
                     outline: 0;
                     transition: .25s;
                     text-transform: uppercase;
                     padding: 8px 12px;
                     cursor: pointer;
-                    color: white;
+                    color: $secondElementsTextColor;
                     &:hover {
                         background-color: #2b2b2b;
                     }

@@ -1,41 +1,31 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
 .mainBlock {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    @include flexible(flex, column, flex-start, center);
     .container {
+        @include flexible(flex, row, space-between, center);
         height: 100%;
         width: 80%;
         margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         flex-wrap: wrap;
         .greeting {
             width: 500px;
             text-align: left;
             & h5 {
-                font-size: 30px;
-                color: #fec544;
-                letter-spacing: 1px;
-                font-family: 'Inter', sans-serif;
-                font-weight: 300;
+                @include text($mainFontFamily,30px,300,1px,$mainElementsColor);
                 text-transform: capitalize;
                 margin: 0 0 15px;
             }
             & h1 {
-                font-size: 80px;
-                color: #fdfeff;
-                font-family: 'Inter', sans-serif;
-                font-weight: 900;
+                @include text($mainFontFamily,80px,900,1px,$secondElementsTextColor);
                 margin: 0 0 15px;
                 line-height: 1;
             }
             & h2 {
-                font-size: 36px;
+                @include text($mainFontFamily,36px,300,1px,$mainElementsTextColor);
                 margin: 0 0 15px;
-                font-weight: 300;
-                color: #a9adb8;
             }
         }
         .photo {

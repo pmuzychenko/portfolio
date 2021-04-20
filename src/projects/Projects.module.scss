@@ -1,10 +1,10 @@
+@import '../common/styles/sass/mixins';
+
 .projectsBlock {
   padding: 80px 0 60px;
 
   .projectsContainer {
-    justify-content: flex-start;
-    flex-direction: column;
-    display: flex;
+    @include flexible(flex, column, flex-start, center);
     flex-wrap: wrap;
 
     .projects {

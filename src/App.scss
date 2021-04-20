@@ -1,8 +1,10 @@
+@import 'common/styles/sass/variables';
+
 .App {
   text-align: center;
-  background: #070d1b;
+  background: $bgColor;
   & > div:nth-child(2n+3){
-    background:#0a101e;
+    background: $bgSecondColor;
   }
 }
 
