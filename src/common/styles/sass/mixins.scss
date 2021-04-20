@@ -1,0 +1,14 @@
+@mixin text($fontFamily, $fontSize, $fontWeight, $letterSpacing, $color) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  letter-spacing: $letterSpacing;
+  color: $color;
+}
+
+@mixin flexible($display,$flexDirection, $justifyContent, $alignItems) {
+  display: $display;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
