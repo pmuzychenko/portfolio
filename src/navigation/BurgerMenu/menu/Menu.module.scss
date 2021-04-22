@@ -1,0 +1,88 @@
+@import './../../../common/styles/sass/variables';
+@import './../../../common/styles/sass/mixins';
+
+.menu {
+    z-index: 9999;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    transform: translateX(130%);
+}
+
+.menuActive {
+    z-index: 9999;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transition: all 0.4s ease 0s;
+    @media screen and (max-width: 767px) {
+        & {
+            width: 250px;
+        }
+    }
+}
+
+
+.menuContent {
+    height: 100%;
+    background: $bgInputColor none repeat scroll 0 0;
+    @include flexible(flex,column, flex-start, center);
+    transition: all 0.4s;
+
+    .closeMenu {
+        cursor: pointer;
+        font-size: 1.875rem;
+        padding: 0.625rem;
+        position: absolute;
+        left: 0;
+        color: $mainElementsTextColor;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            color: $mainElementsColor;
+        }
+    }
+
+    .menuHeader {
+        @include text($mainFontFamily, 2rem, 800, 1px, $mainElementsTextColor);
+        padding: 5rem 0;
+        border-bottom: 1px solid $mainElementsTextColor;
+        width: 100%;
+        text-transform: capitalize;
+    }
+
+    .items {
+        width: 100%;
+        font-size: 1.5rem;
+        color: $secondElementsTextColor;
+
+        .oneItem {
+            width: 100%;
+            border-bottom: 1px solid $mainElementsTextColor;
+            text-align: center;
+
+            .link {
+                display: block;
+                padding: 0.82rem 0;
+                @include text($mainFontFamily, 1rem, 600, 2px, $mainElementsColor);
+                text-decoration: none;
+                text-transform: uppercase;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background: $bgColor none repeat scroll 0 0;
+                }
+            }
+
+            .active {
+                background: $bgColor none repeat scroll 0 0;
+            }
+        }
+    }
+}
