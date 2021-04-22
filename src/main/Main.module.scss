@@ -4,6 +4,14 @@
 .mainBlock {
     min-height: 100vh;
     @include flexible(flex, column, flex-start, center);
+    .particles {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.3;
+    }
     .container {
         @include flexible(flex, row, space-between, center);
         height: 100%;
@@ -14,28 +22,48 @@
             width: 500px;
             text-align: left;
             & h5 {
-                @include text($mainFontFamily,30px,300,1px,$mainElementsColor);
+                @include text($mainFontFamily,1.875rem,300,1px,$mainElementsColor);
                 text-transform: capitalize;
-                margin: 0 0 15px;
+                margin: 0 0 1rem;
+                @media only screen and (max-width: 360px) {
+                    font-size: 1rem;
+                }
+                @media only screen and (min-width: 361px) and (max-width: 590px) {
+                    font-size: 1.5rem;
+                }
             }
             & h1 {
-                @include text($mainFontFamily,80px,900,1px,$secondElementsTextColor);
-                margin: 0 0 15px;
+                @include text($mainFontFamily,5rem,900,1px,$secondElementsTextColor);
+                margin: 0 0 1rem;
                 line-height: 1;
+                @media only screen and (max-width: 360px) {
+                    font-size: 2.5rem;
+                }
+                @media only screen and (min-width: 361px) and (max-width: 590px) {
+                    font-size: 3rem;
+                }
             }
             & h2 {
-                @include text($mainFontFamily,36px,300,1px,$mainElementsTextColor);
-                margin: 0 0 15px;
+                @include text($mainFontFamily,2.25rem,300,1px,$mainElementsTextColor);
+                margin: 0 0 1rem;
+                @media only screen and (max-width: 360px) {
+                    font-size: 1.25rem;
+                }
+                @media only screen and (min-width: 361px) and (max-width: 590px) {
+                    font-size: 1.75rem;
+                }
             }
         }
         .photo {
             display: flex;
             flex-direction: column;
             width: 500px;
+            position: relative;
             & img {
                 height: auto;
                 width: 100%;
                 max-width: 720px;
+                z-index: 0;
             }
         }
     }
