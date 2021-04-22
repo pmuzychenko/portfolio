@@ -1,17 +1,21 @@
 import React from 'react'
-import s from './Project.module.scss';
+import styles from './Project.module.scss';
 import Slide from "react-reveal/Slide";
 
-export const Project = ({img, description, link, title}) => {
+export const Project = ({img, description, linkDemo, linkCode, title}) => {
     return (
         <Slide bottom>
-            <div className={s.project}>
-                <div className={s.img} style={{backgroundImage: `url(${img})`}}>
-                    <div className={s.overlay}>
-                        <div className={s.description}>
+            <div className={styles.project}>
+                <div className={styles.img} style={{backgroundImage: `url(${img})`}}>
+                    <div className={styles.overlay}>
+                        <div className={styles.description}>
                             <h3>{title}</h3>
                             <p>{description}</p>
-                            <a href={link} className={s.btn} target="_blank" rel="noreferrer">view project</a>
+                            <div className={styles.links}>
+                                <a href={linkDemo} className={styles.btnDemo} target="_blank" rel="noreferrer">view demo</a>
+                                <a href={linkCode} className={styles.btnCode} target="_blank" rel="noreferrer">view code</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>

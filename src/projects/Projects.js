@@ -15,48 +15,56 @@ function Projects() {
     return (
         <div className={styles.projectsBlock} id={'projects'}>
             <div className={styles.projectsContainer}>
-                    <Title title={'My Projects'}/>
+                <Title title={'My Projects'}/>
                 <div className={styles.projects}>
 
                     <Project title={"React Tasks"}
                              img={imgReactTasks}
                              description={"React, Redux, TS, RestAPI, Thunk, Unit Tests"}
-                             link={"https://pmuzychenko.github.io/react-homeworks"}/>
+                             linkDemo={"https://pmuzychenko.github.io/react-homeworks"}
+                             linkCode={"https://github.com/pmuzychenko/react-homeworks"}/>
 
                     <Project title={"Todolist"}
                              img={imgTodolist}
                              description={"React, Redux, TS, RestAPI, Thunk, Material UI, Unit Tests"}
-                             link={"https://pmuzychenko.github.io/todolist-training"}/>
+                             linkDemo={"https://pmuzychenko.github.io/todolist-training"}
+                             linkCode={"https://github.com/pmuzychenko/todolist-training"}/>
 
                     <Project title={"Counter"}
                              img={imgCounter}
-                             description={"React, TS, Redux"}
-                             link={"https://pmuzychenko.github.io/counter-with-settings"} />
+                             description={"React, Redux, TS"}
+                             linkDemo={"https://pmuzychenko.github.io/counter-with-settings"}
+                             linkCode={"https://github.com/pmuzychenko/counter-with-settings"}/>
 
                     <Project title={"Friday project"}
                              img={imgFridayProject}
-                             description={"Team project: TS, Redux, RestAPI, Thunk, Material UI"}
-                             link={"https://pmuzychenko.github.io/friday-cards-project/"} />
+                             description={"Team project: React, Redux, TS, RestAPI, Thunk, Material UI"}
+                             linkDemo={"https://pmuzychenko.github.io/friday-cards-project/"}
+                             linkCode={"https://github.com/pmuzychenko/friday-cards-project"}/>
 
                     <Project title={"Future Project"}
                              img={imgFutureProject}
                              description={"...in progress"}
-                             link={"https://github.com/pmuzychenko"} />
+                             linkDemo={"https://github.com/pmuzychenko"}
+                             linkCode={"https://github.com/pmuzychenko/friday-cards-project"}/>
 
                     <Project title={"Future Project"}
                              img={imgFutureProject1}
                              description={"...in progress"}
-                             link={"https://github.com/pmuzychenko"} />
+                             linkDemo={"https://github.com/pmuzychenko"}
+                             linkCode={"https://github.com/pmuzychenko"}/>
 
                     <Project title={"Future Project"}
                              img={imgFutureProject2}
                              description={"...in progress"}
-                             link={"https://github.com/pmuzychenko"} />
+                             linkDemo={"https://github.com/pmuzychenko"}
+                             linkCode={"https://github.com/pmuzychenko"}/>
 
                     <Project title={"The Social Network"}
                              img={imgSocialNetwork}
-                             description={"TS, Redux, RestAPI, Thunk"}
-                             link={"The Social Network"}/>
+                             description={"React, Redux, TS, RestAPI, Thunk"}
+                             linkDemo={"https://github.com/pmuzychenko/social-network-ts"}
+                             linkCode={"https://github.com/pmuzychenko/social-network-ts"}/>
                 </div>
             </div>
         </div>

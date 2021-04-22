@@ -29,7 +29,7 @@ function Vacancy() {
                                 <input type="email" placeholder="Please enter Your Email"/>
                             </div>
                             <textarea placeholder="Your Message..."/>
-                            <Button title={'Send offer'} className={styles.btn}/>
+                            <Button title={'Send details'}/>
                         </form>
                     </div>
                 </HiringModal>

@@ -6,41 +6,36 @@
     padding: 5rem 0;
 
     .vacancyContainer {
-        flex-direction: column;
+        @include flexible(flex, column, space-between, center);
         text-align: center;
-
         height: 100%;
         width: 80%;
         margin: 0 auto;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
         box-sizing: border-box;
     }
 
     .header {
         color: $mainElementsColor;
         background-color:$bgColor;
-        padding: 18px 40px 20px;
+        padding: 1.13rem 2.5rem 1.25rem;
         border-bottom: 1px solid $borderInputColor;
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
+        @include flexible(flex, column, center, baseline);
 
         h4 {
-            font-size: 22px;
+            font-size: 1.38rem;
             font-weight: 600;
             margin: 0;
-            line-height: 1.42857143;
+            line-height: 1.43;
         }
 
         p {
-            margin: 3px 0 0 0;
+            margin: 0.18rem 0 0 0;
         }
     }
 
     .form {
-        padding: 30px 40px;
+        padding: 1.88rem 2.5rem;
         background-color: #070d1b;
 
         .inputBlock {
@@ -51,11 +46,11 @@
 
             input {
                 @include text($mainFontFamily,1.2rem,500,0.5px,$mainElementsColor);
-                padding: 10px 0;
+                padding: 0.63rem 0;
                 font-family: $mainFontFamily;
-                margin-top: 20px;
+                margin-top: 1.25rem;
                 border: 1px solid $borderInputColor;
-                text-indent: 15px;
+                text-indent: 1rem;
                 background-color: $bgInputColor;
             }
 
@@ -72,8 +67,8 @@
             background-color: $bgInputColor;
             max-height: 300px;
             border: 1px solid $borderInputColor;
-            margin: 20px 0;
-            padding: 11px;
+            margin: 1.25rem 0;
+            padding: 0.68rem;
             width: 95%;
             height: 100px;
             resize: none;
@@ -82,23 +77,6 @@
         &:active, :hover, :focus {
             outline: none;
             outline-offset: 0;
-        }
-
-        .btn {
-            @include text($mainFontFamily,1.5rem,500,1px,$mainElementsColor);
-            font-family: 'Montserrat', sans-serif;
-            background-color: green;
-            border: 0 none;
-            border-radius: 0;
-            height: 40px;
-            padding: 0 40px;
-            text-transform: uppercase;
-            transition: all 0.3s ease 0s;
-            cursor: pointer;
-
-            &:hover {
-                background-color: #000000
-            }
         }
     }
 }
