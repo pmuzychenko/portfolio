@@ -1,9 +1,105 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
 .vacancyBlock {
     max-height: 20vh;
-    padding: 80px 0;
+    padding: 5rem 0;
+
     .vacancyContainer {
-        justify-content: flex-start;
         flex-direction: column;
+        text-align: center;
+
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .header {
+        color: $mainElementsColor;
+        background-color:$bgColor;
+        padding: 18px 40px 20px;
+        border-bottom: 1px solid $borderInputColor;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+
+        h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0;
+            line-height: 1.42857143;
+        }
+
+        p {
+            margin: 3px 0 0 0;
+        }
+    }
+
+    .form {
+        padding: 30px 40px;
+        background-color: #070d1b;
+
+        .inputBlock {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+
+            input {
+                @include text($mainFontFamily,1.2rem,500,0.5px,$mainElementsColor);
+                padding: 10px 0;
+                font-family: $mainFontFamily;
+                margin-top: 20px;
+                border: 1px solid $borderInputColor;
+                text-indent: 15px;
+                background-color: $bgInputColor;
+            }
+
+            &:active, :hover, :focus {
+                outline: none;
+                outline-offset: 0;
+            }
+
+        }
+
+        textarea {
+            @include text($mainFontFamily,1.2rem,500,0.5px,$mainElementsColor);
+            font-family: $mainFontFamily;
+            background-color: $bgInputColor;
+            max-height: 300px;
+            border: 1px solid $borderInputColor;
+            margin: 20px 0;
+            padding: 11px;
+            width: 95%;
+            height: 100px;
+            resize: none;
+        }
+
+        &:active, :hover, :focus {
+            outline: none;
+            outline-offset: 0;
+        }
+
+        .btn {
+            @include text($mainFontFamily,1.5rem,500,1px,$mainElementsColor);
+            font-family: 'Montserrat', sans-serif;
+            background-color: green;
+            border: 0 none;
+            border-radius: 0;
+            height: 40px;
+            padding: 0 40px;
+            text-transform: uppercase;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #000000
+            }
+        }
     }
 }
 
