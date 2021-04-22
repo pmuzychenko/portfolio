@@ -117,7 +117,7 @@ const particlesOptions = {
 
 function Main() {
     return (
-        <div className={styles.mainBlock} id={'home'}>
+        <div className={styles.mainBlock} id={'main'}>
             <Particles className={styles.particles} params={particlesOptions}/>
             <div className={styles.container}>
                 <div className={styles.greeting}>
