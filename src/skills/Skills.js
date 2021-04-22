@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Skills.module.scss';
-import Skill from "./skill/Skill";
-import Title from "../common/components/title/Title";
-import {faBriefcase, faLaptopCode, faTasks} from "@fortawesome/free-solid-svg-icons";
-import {faSketch} from "@fortawesome/free-brands-svg-icons";
+import Skill from './skill/Skill';
+import Title from '../common/components/title/Title';
+import {faBriefcase, faLaptopCode, faTasks} from '@fortawesome/free-solid-svg-icons';
+import {faSketch} from '@fortawesome/free-brands-svg-icons';
 
 function Skills() {
     return (

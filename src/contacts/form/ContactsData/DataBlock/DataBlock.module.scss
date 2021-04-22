@@ -2,19 +2,19 @@
 @import '../../../../common/styles/sass/mixins';
 
 .dataBlock {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     @include flexible(flex,row, flex-start, center);
     width: 300px;
     text-align: left;
     .icon {
         border: 1px solid $mainElementsColor;
         border-radius: 50%;
-        font-size: 24px;
-        height: 47px;
-        line-height: 47px;
-        margin-right: 12px;
+        font-size: 1.5rem;
+        height: 3rem;
+        line-height: 3rem;
+        margin-right: 0.75rem;
         text-align: center;
-        width: 47px;
+        width: 3rem;
         color: $mainElementsColor;
     }
     .description {
@@ -23,13 +23,13 @@
         font-family: $mainFontFamily;
         font-weight: 400;
         & h4 {
-            font-size: 20px;
+            font-size: 1rem;
             margin: 0;
             text-transform: capitalize;
             color:$mainElementsTextColor;
         }
         & span {
-            font-size: 16px;
+            font-size: 1rem;
             outline: none;
             text-decoration: none;
             color:$mainElementsTextColor;

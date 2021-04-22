@@ -1,9 +1,9 @@
 import React from 'react'
-import DataBlock from "./DataBlock/DataBlock";
+import DataBlock from './DataBlock/DataBlock';
 import styles from './ContactsData.module.scss';
-import {faTelegramPlane} from "@fortawesome/free-brands-svg-icons";
-import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
-import {faHome} from "@fortawesome/free-solid-svg-icons";
+import {faTelegramPlane} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
+import {faHome} from '@fortawesome/free-solid-svg-icons';
 
 function ContactsData() {
     return (

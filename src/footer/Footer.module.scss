@@ -4,10 +4,10 @@
 .footerBlock {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     .copyRight {
-        @include text($mainFontFamily,16px,400,0.8px,$mainElementsTextColor);
-        line-height: 1.6em;
+        @include text($mainFontFamily,1rem,400,0.8px,$mainElementsTextColor);
+        line-height: 1.6rem;
         text-align: center;
         margin: 0;
     }

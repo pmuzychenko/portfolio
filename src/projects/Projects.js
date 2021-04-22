@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import styles from './Projects.module.scss';
-import {Project} from "./project/Project";
-import Title from "../common/components/title/Title";
-import imgSocialNetwork from '../assets/images/socialNetwork_.jpg'
-import imgTodolist from '../assets/images/todolist_.jpg'
-import imgCounter from '../assets/images/counter_.jpg'
-import imgFridayProject from '../assets/images/Friday_project.jpg'
-import imgFutureProject from '../assets/images/future_project.jpg'
-import imgFutureProject1 from '../assets/images/future_project1.jpg'
-import imgFutureProject2 from '../assets/images/future_project2.jpg'
-import imgReactTasks from '../assets/images/react_tasks.jpg'
+import {Project} from './project/Project';
+import Title from '../common/components/title/Title';
+import imgSocialNetwork from '../assets/images/socialNetwork_.jpg';
+import imgTodolist from '../assets/images/todolist_.jpg';
+import imgCounter from '../assets/images/counter_.jpg';
+import imgFridayProject from '../assets/images/Friday_project.jpg';
+import imgFutureProject from '../assets/images/future_project.jpg';
+import imgFutureProject1 from '../assets/images/future_project1.jpg';
+import imgFutureProject2 from '../assets/images/future_project2.jpg';
+import imgReactTasks from '../assets/images/react_tasks.jpg';
 
 function Projects() {
     return (

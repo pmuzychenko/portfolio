@@ -5,11 +5,11 @@
     @include flexible(flex, column, center, flex-start);
     width: 500px;
     font-family: $mainFontFamily;
-    font-size: 16px;
+    font-size: 1rem;
     input {
-        @include text($mainFontFamily,14px,300,1px,$mainElementsColor);
-        margin-top: 10px;
-        padding: 12px 20px;
+        @include text($mainFontFamily,0.875rem,300,1px,$mainElementsColor);
+        margin-top: 0.625rem;
+        padding: 0.75rem 1.25rem;
         width: 95%;
         border: 1px solid $borderInputColor;
         background-color: $bgInputColor;
@@ -19,10 +19,10 @@
         line-height: inherit;
     }
     textarea {
-        @include text($mainFontFamily,14px,300,1px,$mainElementsColor);
-        margin-top: 10px;
+        @include text($mainFontFamily,0.875rem,300,1px,$mainElementsColor);
+        margin-top: 0.625rem;
         max-height: 300px;
-        padding: 12px 20px;
+        padding: 0.75rem 1.25rem;
         width: 95%;
         height: 150px;
         border: 1px solid $borderInputColor;

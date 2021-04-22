@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './Project.module.scss';
-import Slide from "react-reveal";
+import Slide from "react-reveal/Slide";
 
 export const Project = ({img, description, link, title}) => {
     return (

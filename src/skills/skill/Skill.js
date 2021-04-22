@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import styles from './Skill.module.scss';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 function Skill({title, description, titleIcon}) {
     return (

@@ -2,7 +2,7 @@
 
 .project {
     width: 95%;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     display: inline-block;
     &:nth-child(4n+1) .img, &:nth-child(4n) .img {
         height: 350px;
@@ -21,17 +21,17 @@
                 opacity: 1;
             }
             .description {
-                padding: 15px;
+                padding: 1rem;
                 font-family: $mainFontFamily;
                 h3 {
                     text-transform: uppercase;
                     font-weight: 800;
-                    font-size: 20px;
-                    color: white;
+                    font-size: 1.25rem;
+                    color: $bgButtonColor;
                 }
                 p {
                     color: $secondElementsTextColor;
-                    margin-bottom: 25px;
+                    margin-bottom: 1.5rem;
                 }
                 .btn {
                     text-decoration: none;
@@ -39,7 +39,7 @@
                     outline: 0;
                     transition: .25s;
                     text-transform: uppercase;
-                    padding: 8px 12px;
+                    padding: 0.5rem 0.75rem;
                     cursor: pointer;
                     color: $secondElementsTextColor;
                     &:hover {

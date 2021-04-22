@@ -1,23 +1,18 @@
 @import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 .skill {
     width: 240px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 50px 10px 60px;
-    margin-bottom: 30px;
+    @include flexible(flex, column, flex-start, center);
+    padding: 3.125rem 0.625rem 3.75rem;
+    margin-bottom: 1.875rem;
     box-shadow: 0 1px 5px rgba(100, 100, 100, 0.15);
     transition: all 0.3s ease 0s;
     background-color: $bgColor;
 }
 
 .skill h2 {
-    color: $mainElementsTextColor;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: $mainFontFamily;
+    @include text($mainFontFamily,1.25rem,400,1px,$mainElementsTextColor);
     margin: 0;
 }
 .skill h2:hover {
@@ -30,34 +25,29 @@ hr {
 }
 
 p {
-    font-family: $mainFontFamily;
+    @include text($mainFontFamily,1rem,300,0.5px,$mainElementsTextColor);
     margin: 0;
-    color: $mainElementsTextColor;
-    font-size: 16px;
-    font-weight: 300;
 }
 
 .hR {
-    margin: 15px auto;
+    margin: 1rem auto;
     width: 50px;
 }
 
 .image {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border: 1px solid #757575;
     border-radius: 50%;
     height: 36px;
     width: 36px;
     transition: all 0.3s ease 0s;
     background-color: #0a101e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexible(flex, row, center, center);
 }
 
 .icon {
     transition: all 0.3s ease 0s;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: $mainElementsColor;
 }
 

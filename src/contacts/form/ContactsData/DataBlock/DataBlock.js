@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './DataBlock.module.scss';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 
 function DataBlock({iconTitle, contactTitle, data}) {

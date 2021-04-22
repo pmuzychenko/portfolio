@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import styles from './Header.module.scss';
 import Navigation from "../navigation/Navigation";
+
 
 function Header() {
     return (
